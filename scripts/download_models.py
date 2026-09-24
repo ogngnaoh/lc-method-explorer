@@ -4,7 +4,7 @@ import hashlib
 import io
 import json
 from pathlib import Path
-import urllib.request
+import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -47,8 +47,11 @@ def main():
         payload = args.archive.read_bytes()
     else:
         print('Downloading original models from the project GitHub release...')
-        with urllib.request.urlopen(manifest['url'], timeout=120) as response:
-            payload = response.read()
+        payload = subprocess.run(
+            ['curl', '--fail', '--location', '--silent', '--show-error',
+             '--proto', '=https', '--proto-redir', '=https', '--retry', '2',
+             '--max-time', '180', manifest['url']],
+            check=True, stdout=subprocess.PIPE).stdout
     install(payload, manifest)
 
 if __name__ == '__main__':

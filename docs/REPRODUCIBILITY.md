@@ -4,7 +4,7 @@ Static figures, reports and the presentation can be reviewed directly on GitHub.
 
 ## Use the frozen experiment
 
-Requires Python 3.11 and [uv](https://docs.astral.sh/uv/). On macOS, install OpenMP for XGBoost with `brew install libomp`.
+Requires Python 3.11, curl and [uv](https://docs.astral.sh/uv/). On macOS, install OpenMP for XGBoost with `brew install libomp`.
 
 From the repository root:
 
