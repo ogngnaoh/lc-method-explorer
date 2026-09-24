@@ -17,3 +17,11 @@ Verified September 24, 2026 on macOS / Apple M2 Pro. This records the scope of t
 The visual direction uses teal, white space and dark neutral typography inspired by the [Merck research site](https://www.merck.com/research/). This project uses no Merck logo or proprietary typeface and has no employer affiliation.
 
 These checks establish a same-machine clean-copy installation and frozen-artifact reproduction. They do not establish independent hardware/OS reproduction, a fresh laboratory study, calibrated prediction intervals or new-method generalization. The optional full model-refit procedure is documented separately from loading the original release artifacts.
+
+## Public download check
+
+The public GitHub repository was cloned into a new directory. Both locked environments installed successfully. The model bundle downloaded from the public release, all five file checksums matched, frozen-output verification passed, and all nine experiment plus four demo tests passed again.
+
+This check exposed a missing CA configuration in the standalone Python installation. The v0.1.1 setup fix uses system curl with HTTPS certificate validation enabled, consistent with the dataset downloader. It changes no scientific code, model files or reported results. The original model bundle remains attached to v0.1.0 and referenced by the committed manifest. Use current main or v0.1.1 for the corrected setup script.
+
+The public repository page and all embedded README images were checked on GitHub. The published commit and reviewed local Git tree match.
