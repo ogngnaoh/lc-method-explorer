@@ -1,0 +1,516 @@
+{
+  "experiment_id": "mcmrt-v3-compound-v1",
+  "winner": "xgb_depth5",
+  "best_by_family": {
+    "baseline": "median",
+    "random_forest": "rf_leaf1",
+    "xgboost": "xgb_depth5"
+  },
+  "candidates": [
+    {
+      "candidate": "median",
+      "family": "baseline",
+      "mae_min": 4.8531235983055065,
+      "runtime_seconds": 0.6274272500013467
+    },
+    {
+      "candidate": "rf_leaf1",
+      "family": "random_forest",
+      "mae_min": 1.943699912008196,
+      "runtime_seconds": 14.760662250002497
+    },
+    {
+      "candidate": "rf_leaf3",
+      "family": "random_forest",
+      "mae_min": 1.958936726987333,
+      "runtime_seconds": 12.219419334011036
+    },
+    {
+      "candidate": "rf_leaf5",
+      "family": "random_forest",
+      "mae_min": 1.9993811362234604,
+      "runtime_seconds": 13.33636495799874
+    },
+    {
+      "candidate": "xgb_depth3",
+      "family": "xgboost",
+      "mae_min": 2.0148068191040727,
+      "runtime_seconds": 1.840840416989522
+    },
+    {
+      "candidate": "xgb_depth5",
+      "family": "xgboost",
+      "mae_min": 1.903384036856817,
+      "runtime_seconds": 2.5788338749989634
+    },
+    {
+      "candidate": "xgb_depth7",
+      "family": "xgboost",
+      "mae_min": 1.9064163071693934,
+      "runtime_seconds": 3.539490334005677
+    }
+  ],
+  "development_scores": {
+    "median": {
+      "retention": {
+        "observations": 8026,
+        "compound_groups": 272,
+        "mae_min": 4.8531235983055065,
+        "rmse_min": 7.141761723976328,
+        "median_absolute_error_min": 3.289999999999999,
+        "p90_absolute_error_min": 10.895,
+        "mean_group_mae_min": 4.824530637254902
+      },
+      "ranking": {
+        "overall": {
+          "cases": 1052,
+          "compounds": 263,
+          "top1_hit_rate": 0.49524714828897337,
+          "top3_hit_rate": 0.6036121673003803,
+          "feasible_rate": 0.7442965779467681,
+          "top1_hit_given_feasible": 0.665389527458493,
+          "mean_excess_distance_min": 1.1010076045627375
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.5285171102661597,
+            "top3_hit_rate": 0.7110266159695817,
+            "feasible_rate": 0.9125475285171103,
+            "top1_hit_given_feasible": 0.5791666666666667,
+            "mean_excess_distance_min": 1.7303041825095054
+          },
+          "2-5": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.21673003802281368,
+            "top3_hit_rate": 0.2661596958174905,
+            "feasible_rate": 0.2965779467680608,
+            "top1_hit_given_feasible": 0.7307692307692307,
+            "mean_excess_distance_min": 0.37429657794676807
+          },
+          "20-40": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.6083650190114068,
+            "top3_hit_rate": 0.6083650190114068,
+            "feasible_rate": 0.7984790874524715,
+            "top1_hit_given_feasible": 0.7619047619047619,
+            "mean_excess_distance_min": 1.8547528517110266
+          },
+          "5-10": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.6273764258555133,
+            "top3_hit_rate": 0.8288973384030418,
+            "feasible_rate": 0.9695817490494296,
+            "top1_hit_given_feasible": 0.6470588235294118,
+            "mean_excess_distance_min": 0.4446768060836501
+          }
+        },
+        "excluded_incomplete_compounds": 10
+      },
+      "predictions_below_zero": 0,
+      "predictions_after_run_end": 0
+    },
+    "rf_leaf1": {
+      "retention": {
+        "observations": 8026,
+        "compound_groups": 272,
+        "mae_min": 1.943699912008196,
+        "rmse_min": 3.142239977284771,
+        "median_absolute_error_min": 1.2067400000000195,
+        "p90_absolute_error_min": 4.441180000000008,
+        "mean_group_mae_min": 1.9232024041394336
+      },
+      "ranking": {
+        "overall": {
+          "cases": 1052,
+          "compounds": 263,
+          "top1_hit_rate": 0.6482889733840305,
+          "top3_hit_rate": 0.6967680608365019,
+          "feasible_rate": 0.7442965779467681,
+          "top1_hit_given_feasible": 0.8710089399744572,
+          "mean_excess_distance_min": 0.3937642585551331
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.8098859315589354,
+            "top3_hit_rate": 0.8517110266159695,
+            "feasible_rate": 0.9125475285171103,
+            "top1_hit_given_feasible": 0.8875,
+            "mean_excess_distance_min": 0.37110266159695815
+          },
+          "2-5": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.21292775665399238,
+            "top3_hit_rate": 0.2509505703422053,
+            "feasible_rate": 0.2965779467680608,
+            "top1_hit_given_feasible": 0.717948717948718,
+            "mean_excess_distance_min": 0.15558935361216727
+          },
+          "20-40": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.7034220532319392,
+            "top3_hit_rate": 0.7604562737642585,
+            "feasible_rate": 0.7984790874524715,
+            "top1_hit_given_feasible": 0.8809523809523809,
+            "mean_excess_distance_min": 0.798593155893536
+          },
+          "5-10": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.8669201520912547,
+            "top3_hit_rate": 0.9239543726235742,
+            "feasible_rate": 0.9695817490494296,
+            "top1_hit_given_feasible": 0.8941176470588236,
+            "mean_excess_distance_min": 0.24977186311787072
+          }
+        },
+        "excluded_incomplete_compounds": 10
+      },
+      "predictions_below_zero": 0,
+      "predictions_after_run_end": 0
+    },
+    "rf_leaf3": {
+      "retention": {
+        "observations": 8026,
+        "compound_groups": 272,
+        "mae_min": 1.958936726987333,
+        "rmse_min": 3.151948074993661,
+        "median_absolute_error_min": 1.2323575380452851,
+        "p90_absolute_error_min": 4.424752292818284,
+        "mean_group_mae_min": 1.941235654810152
+      },
+      "ranking": {
+        "overall": {
+          "cases": 1052,
+          "compounds": 263,
+          "top1_hit_rate": 0.6501901140684411,
+          "top3_hit_rate": 0.6977186311787072,
+          "feasible_rate": 0.7442965779467681,
+          "top1_hit_given_feasible": 0.8735632183908046,
+          "mean_excess_distance_min": 0.3874619771863118
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.7984790874524715,
+            "top3_hit_rate": 0.8479087452471483,
+            "feasible_rate": 0.9125475285171103,
+            "top1_hit_given_feasible": 0.875,
+            "mean_excess_distance_min": 0.3009125475285171
+          },
+          "2-5": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.22053231939163498,
+            "top3_hit_rate": 0.25475285171102663,
+            "feasible_rate": 0.2965779467680608,
+            "top1_hit_given_feasible": 0.7435897435897436,
+            "mean_excess_distance_min": 0.14053231939163496
+          },
+          "20-40": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.7034220532319392,
+            "top3_hit_rate": 0.7642585551330798,
+            "feasible_rate": 0.7984790874524715,
+            "top1_hit_given_feasible": 0.8809523809523809,
+            "mean_excess_distance_min": 0.8721292775665399
+          },
+          "5-10": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.8783269961977186,
+            "top3_hit_rate": 0.9239543726235742,
+            "feasible_rate": 0.9695817490494296,
+            "top1_hit_given_feasible": 0.9058823529411765,
+            "mean_excess_distance_min": 0.23627376425855515
+          }
+        },
+        "excluded_incomplete_compounds": 10
+      },
+      "predictions_below_zero": 0,
+      "predictions_after_run_end": 0
+    },
+    "rf_leaf5": {
+      "retention": {
+        "observations": 8026,
+        "compound_groups": 272,
+        "mae_min": 1.9993811362234604,
+        "rmse_min": 3.180786285935322,
+        "median_absolute_error_min": 1.2729529711187428,
+        "p90_absolute_error_min": 4.5236954428460106,
+        "mean_group_mae_min": 1.9833520857370512
+      },
+      "ranking": {
+        "overall": {
+          "cases": 1052,
+          "compounds": 263,
+          "top1_hit_rate": 0.6492395437262357,
+          "top3_hit_rate": 0.6967680608365019,
+          "feasible_rate": 0.7442965779467681,
+          "top1_hit_given_feasible": 0.8722860791826309,
+          "mean_excess_distance_min": 0.4001140684410646
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.8060836501901141,
+            "top3_hit_rate": 0.8517110266159695,
+            "feasible_rate": 0.9125475285171103,
+            "top1_hit_given_feasible": 0.8833333333333333,
+            "mean_excess_distance_min": 0.3118631178707224
+          },
+          "2-5": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.22053231939163498,
+            "top3_hit_rate": 0.24714828897338403,
+            "feasible_rate": 0.2965779467680608,
+            "top1_hit_given_feasible": 0.7435897435897436,
+            "mean_excess_distance_min": 0.1724334600760456
+          },
+          "20-40": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.688212927756654,
+            "top3_hit_rate": 0.7566539923954373,
+            "feasible_rate": 0.7984790874524715,
+            "top1_hit_given_feasible": 0.861904761904762,
+            "mean_excess_distance_min": 0.9050570342205323
+          },
+          "5-10": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.8821292775665399,
+            "top3_hit_rate": 0.9315589353612167,
+            "feasible_rate": 0.9695817490494296,
+            "top1_hit_given_feasible": 0.9098039215686274,
+            "mean_excess_distance_min": 0.21110266159695815
+          }
+        },
+        "excluded_incomplete_compounds": 10
+      },
+      "predictions_below_zero": 0,
+      "predictions_after_run_end": 0
+    },
+    "xgb_depth3": {
+      "retention": {
+        "observations": 8026,
+        "compound_groups": 272,
+        "mae_min": 2.0148068191040727,
+        "rmse_min": 3.299986161067989,
+        "median_absolute_error_min": 1.228158206939697,
+        "p90_absolute_error_min": 4.4772922229766845,
+        "mean_group_mae_min": 1.9916237643911376
+      },
+      "ranking": {
+        "overall": {
+          "cases": 1052,
+          "compounds": 263,
+          "top1_hit_rate": 0.6321292775665399,
+          "top3_hit_rate": 0.6986692015209125,
+          "feasible_rate": 0.7442965779467681,
+          "top1_hit_given_feasible": 0.8492975734355045,
+          "mean_excess_distance_min": 0.4847623574144486
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.7832699619771863,
+            "top3_hit_rate": 0.8403041825095057,
+            "feasible_rate": 0.9125475285171103,
+            "top1_hit_given_feasible": 0.8583333333333333,
+            "mean_excess_distance_min": 0.4888593155893536
+          },
+          "2-5": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.23954372623574144,
+            "top3_hit_rate": 0.26996197718631176,
+            "feasible_rate": 0.2965779467680608,
+            "top1_hit_given_feasible": 0.8076923076923077,
+            "mean_excess_distance_min": 0.27539923954372625
+          },
+          "20-40": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.6996197718631179,
+            "top3_hit_rate": 0.7566539923954373,
+            "feasible_rate": 0.7984790874524715,
+            "top1_hit_given_feasible": 0.8761904761904762,
+            "mean_excess_distance_min": 0.8880228136882129
+          },
+          "5-10": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.8060836501901141,
+            "top3_hit_rate": 0.9277566539923955,
+            "feasible_rate": 0.9695817490494296,
+            "top1_hit_given_feasible": 0.8313725490196079,
+            "mean_excess_distance_min": 0.28676806083650186
+          }
+        },
+        "excluded_incomplete_compounds": 10
+      },
+      "predictions_below_zero": 3,
+      "predictions_after_run_end": 19
+    },
+    "xgb_depth5": {
+      "retention": {
+        "observations": 8026,
+        "compound_groups": 272,
+        "mae_min": 1.903384036856817,
+        "rmse_min": 3.1822999960674427,
+        "median_absolute_error_min": 1.1558370590209952,
+        "p90_absolute_error_min": 4.267602996826173,
+        "mean_group_mae_min": 1.8827638246682346
+      },
+      "ranking": {
+        "overall": {
+          "cases": 1052,
+          "compounds": 263,
+          "top1_hit_rate": 0.6501901140684411,
+          "top3_hit_rate": 0.6977186311787072,
+          "feasible_rate": 0.7442965779467681,
+          "top1_hit_given_feasible": 0.8735632183908046,
+          "mean_excess_distance_min": 0.4296673003802281
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.7832699619771863,
+            "top3_hit_rate": 0.8517110266159695,
+            "feasible_rate": 0.9125475285171103,
+            "top1_hit_given_feasible": 0.8583333333333333,
+            "mean_excess_distance_min": 0.5005703422053233
+          },
+          "2-5": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.23574144486692014,
+            "top3_hit_rate": 0.2661596958174905,
+            "feasible_rate": 0.2965779467680608,
+            "top1_hit_given_feasible": 0.7948717948717948,
+            "mean_excess_distance_min": 0.17083650190114072
+          },
+          "20-40": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.7034220532319392,
+            "top3_hit_rate": 0.7566539923954373,
+            "feasible_rate": 0.7984790874524715,
+            "top1_hit_given_feasible": 0.8809523809523809,
+            "mean_excess_distance_min": 0.8580228136882129
+          },
+          "5-10": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.8783269961977186,
+            "top3_hit_rate": 0.9163498098859315,
+            "feasible_rate": 0.9695817490494296,
+            "top1_hit_given_feasible": 0.9058823529411765,
+            "mean_excess_distance_min": 0.18923954372623572
+          }
+        },
+        "excluded_incomplete_compounds": 10
+      },
+      "predictions_below_zero": 0,
+      "predictions_after_run_end": 0
+    },
+    "xgb_depth7": {
+      "retention": {
+        "observations": 8026,
+        "compound_groups": 272,
+        "mae_min": 1.9064163071693934,
+        "rmse_min": 3.167457144873379,
+        "median_absolute_error_min": 1.1451793861389161,
+        "p90_absolute_error_min": 4.360635356903076,
+        "mean_group_mae_min": 1.8835520589660195
+      },
+      "ranking": {
+        "overall": {
+          "cases": 1052,
+          "compounds": 263,
+          "top1_hit_rate": 0.6444866920152091,
+          "top3_hit_rate": 0.6986692015209125,
+          "feasible_rate": 0.7442965779467681,
+          "top1_hit_given_feasible": 0.8659003831417624,
+          "mean_excess_distance_min": 0.3913498098859315
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.7984790874524715,
+            "top3_hit_rate": 0.8555133079847909,
+            "feasible_rate": 0.9125475285171103,
+            "top1_hit_given_feasible": 0.875,
+            "mean_excess_distance_min": 0.42015209125475284
+          },
+          "2-5": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.22053231939163498,
+            "top3_hit_rate": 0.2585551330798479,
+            "feasible_rate": 0.2965779467680608,
+            "top1_hit_given_feasible": 0.7435897435897436,
+            "mean_excess_distance_min": 0.12399239543726236
+          },
+          "20-40": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.6996197718631179,
+            "top3_hit_rate": 0.752851711026616,
+            "feasible_rate": 0.7984790874524715,
+            "top1_hit_given_feasible": 0.8761904761904762,
+            "mean_excess_distance_min": 0.8322813688212928
+          },
+          "5-10": {
+            "cases": 263,
+            "compounds": 263,
+            "top1_hit_rate": 0.8593155893536122,
+            "top3_hit_rate": 0.9277566539923955,
+            "feasible_rate": 0.9695817490494296,
+            "top1_hit_given_feasible": 0.8862745098039215,
+            "mean_excess_distance_min": 0.18897338403041827
+          }
+        },
+        "excluded_incomplete_compounds": 10
+      },
+      "predictions_below_zero": 0,
+      "predictions_after_run_end": 0
+    }
+  },
+  "hashes": {
+    "config/experiment.json": "d0b496f074a3f8216a82b910b7875021ca9a5ccda94d85cbdda9a69750bcf79e",
+    "reports/EVALUATION_PROTOCOL.md": "076392eb5242bb22e9d7f0bd11a9b9b72113d1fc99dc7faa25a0635e71aed9c3",
+    "uv.lock": "556d53cae14523a25cb417e7c36ad1d2514b0257ea31466f57485aaac96dd08b",
+    "data/splits/compounds.csv": "4d1fc58698722df6952a5eb1771329298a2c65470fcc852b8c90f91953765698",
+    "data/splits/protocol.json": "b02909e3673d3cf7b61082907b554c815e6b29b39af668d47f2d07f67c55f963",
+    "data/processed/feature_schema.json": "fa63e237306ac56acec2e1b26f992c3a29232a85d195f9eb51891bbb745bee37",
+    "chromrt/__init__.py": "6a05c7279c9749b47e0c34d7cdabdb95312bd9cc40a6c01ea965846f586c46e8",
+    "chromrt/baseline.py": "6b7538825de6f349a7e5fc710ff899d3927725cd5b3b8f693803405f94bb2c5c",
+    "chromrt/chemistry.py": "d3697edaa73132a14c6a4a143f5a2d50f999cff1bd5a11699d69ee6a6ed5173b",
+    "chromrt/experiment.py": "54a4ec6a62981e5f87fe8092a75bb7f2e8e84e8f13db5bebf0322034276beed8",
+    "chromrt/methods.py": "3bafc4551c417bbcff00218b717c210052eaaeff921a7b764c96e5c64502ce60",
+    "chromrt/pipeline.py": "0dbe0895d8f0712b11ea75aa6e9f8d62153082fe4b4a6d6edb966b15483eb5bf",
+    "chromrt/prepare.py": "fa59a14991a1056e329d0b940993d81468376c171aed3f16a308fc972f87615f",
+    "chromrt/recommend.py": "822d3755459a7545b80e3c7f1e1efc8d9d217c861350c492995db42419e8a8ab",
+    "chromrt/splits.py": "9bdedec734f91167c2d71398f2137f91c8569952a6dc0eae9cc29da0c30ee296"
+  },
+  "runtime_seconds": 49.41189958300674,
+  "completed_at_utc": "2026-09-24T04:45:56.420012+00:00",
+  "holdout_evaluated": false
+}

@@ -1,0 +1,293 @@
+{
+  "experiment_id": "mcmrt-v3-compound-v1",
+  "deployment_model": "xgb_depth5",
+  "models": {
+    "median": {
+      "retention": {
+        "observations": 2047,
+        "compound_groups": 69,
+        "mae_min": 4.842325354176845,
+        "rmse_min": 7.219897565741139,
+        "median_absolute_error_min": 3.21,
+        "p90_absolute_error_min": 11.370000000000006,
+        "mean_group_mae_min": 4.795214009661835
+      },
+      "ranking": {
+        "overall": {
+          "cases": 268,
+          "compounds": 67,
+          "top1_hit_rate": 0.5447761194029851,
+          "top3_hit_rate": 0.6231343283582089,
+          "feasible_rate": 0.7425373134328358,
+          "top1_hit_given_feasible": 0.7336683417085427,
+          "mean_excess_distance_min": 0.714365671641791
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.7014925373134329,
+            "top3_hit_rate": 0.746268656716418,
+            "feasible_rate": 0.8955223880597015,
+            "top1_hit_given_feasible": 0.7833333333333333,
+            "mean_excess_distance_min": 0.32641791044776114
+          },
+          "2-5": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.2835820895522388,
+            "top3_hit_rate": 0.31343283582089554,
+            "feasible_rate": 0.34328358208955223,
+            "top1_hit_given_feasible": 0.8260869565217391,
+            "mean_excess_distance_min": 0.31716417910447753
+          },
+          "20-40": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.6268656716417911,
+            "top3_hit_rate": 0.6417910447761194,
+            "feasible_rate": 0.7611940298507462,
+            "top1_hit_given_feasible": 0.8235294117647058,
+            "mean_excess_distance_min": 1.7098507462686563
+          },
+          "5-10": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.5671641791044776,
+            "top3_hit_rate": 0.7910447761194029,
+            "feasible_rate": 0.9701492537313433,
+            "top1_hit_given_feasible": 0.5846153846153846,
+            "mean_excess_distance_min": 0.5040298507462687
+          }
+        },
+        "excluded_incomplete_compounds": 3
+      },
+      "predictions_below_zero": 0,
+      "predictions_after_run_end": 0
+    },
+    "rf_leaf1": {
+      "retention": {
+        "observations": 2047,
+        "compound_groups": 69,
+        "mae_min": 1.8908924631632829,
+        "rmse_min": 3.131481887524285,
+        "median_absolute_error_min": 1.061840000000002,
+        "p90_absolute_error_min": 4.67968800000001,
+        "mean_group_mae_min": 1.870059888865886
+      },
+      "ranking": {
+        "overall": {
+          "cases": 268,
+          "compounds": 67,
+          "top1_hit_rate": 0.6529850746268657,
+          "top3_hit_rate": 0.7014925373134329,
+          "feasible_rate": 0.7425373134328358,
+          "top1_hit_given_feasible": 0.8793969849246231,
+          "mean_excess_distance_min": 0.3382462686567164
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.7761194029850746,
+            "top3_hit_rate": 0.8507462686567164,
+            "feasible_rate": 0.8955223880597015,
+            "top1_hit_given_feasible": 0.8666666666666667,
+            "mean_excess_distance_min": 0.4492537313432836
+          },
+          "2-5": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.2835820895522388,
+            "top3_hit_rate": 0.31343283582089554,
+            "feasible_rate": 0.34328358208955223,
+            "top1_hit_given_feasible": 0.8260869565217391,
+            "mean_excess_distance_min": 0.08507462686567166
+          },
+          "20-40": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.6716417910447762,
+            "top3_hit_rate": 0.7313432835820896,
+            "feasible_rate": 0.7611940298507462,
+            "top1_hit_given_feasible": 0.8823529411764706,
+            "mean_excess_distance_min": 0.633731343283582
+          },
+          "5-10": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.8805970149253731,
+            "top3_hit_rate": 0.9104477611940298,
+            "feasible_rate": 0.9701492537313433,
+            "top1_hit_given_feasible": 0.9076923076923077,
+            "mean_excess_distance_min": 0.18492537313432836
+          }
+        },
+        "excluded_incomplete_compounds": 3
+      },
+      "predictions_below_zero": 0,
+      "predictions_after_run_end": 0
+    },
+    "xgb_depth5": {
+      "retention": {
+        "observations": 2047,
+        "compound_groups": 69,
+        "mae_min": 2.1598645227819566,
+        "rmse_min": 3.4148305402605432,
+        "median_absolute_error_min": 1.3541513824462896,
+        "p90_absolute_error_min": 4.876385299682617,
+        "mean_group_mae_min": 2.1208911994656425
+      },
+      "ranking": {
+        "overall": {
+          "cases": 268,
+          "compounds": 67,
+          "top1_hit_rate": 0.6417910447761194,
+          "top3_hit_rate": 0.6977611940298507,
+          "feasible_rate": 0.7425373134328358,
+          "top1_hit_given_feasible": 0.864321608040201,
+          "mean_excess_distance_min": 0.38223880597014925
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.7611940298507462,
+            "top3_hit_rate": 0.835820895522388,
+            "feasible_rate": 0.8955223880597015,
+            "top1_hit_given_feasible": 0.85,
+            "mean_excess_distance_min": 0.5619402985074626
+          },
+          "2-5": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.23880597014925373,
+            "top3_hit_rate": 0.31343283582089554,
+            "feasible_rate": 0.34328358208955223,
+            "top1_hit_given_feasible": 0.6956521739130435,
+            "mean_excess_distance_min": 0.13149253731343286
+          },
+          "20-40": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.6865671641791045,
+            "top3_hit_rate": 0.746268656716418,
+            "feasible_rate": 0.7611940298507462,
+            "top1_hit_given_feasible": 0.9019607843137255,
+            "mean_excess_distance_min": 0.6240298507462687
+          },
+          "5-10": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.8805970149253731,
+            "top3_hit_rate": 0.8955223880597015,
+            "feasible_rate": 0.9701492537313433,
+            "top1_hit_given_feasible": 0.9076923076923077,
+            "mean_excess_distance_min": 0.21149253731343287
+          }
+        },
+        "excluded_incomplete_compounds": 3
+      },
+      "predictions_below_zero": 14,
+      "predictions_after_run_end": 0
+    },
+    "fixed": {
+      "ranking": {
+        "overall": {
+          "cases": 268,
+          "compounds": 67,
+          "top1_hit_rate": 0.6305970149253731,
+          "top3_hit_rate": 0.6417910447761194,
+          "feasible_rate": 0.7425373134328358,
+          "top1_hit_given_feasible": 0.8492462311557789,
+          "mean_excess_distance_min": 0.6380597014925373
+        },
+        "by_window": {
+          "10-20": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.8208955223880597,
+            "top3_hit_rate": 0.8208955223880597,
+            "feasible_rate": 0.8955223880597015,
+            "top1_hit_given_feasible": 0.9166666666666666,
+            "mean_excess_distance_min": 0.31104477611940295
+          },
+          "2-5": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.2835820895522388,
+            "top3_hit_rate": 0.31343283582089554,
+            "feasible_rate": 0.34328358208955223,
+            "top1_hit_given_feasible": 0.8260869565217391,
+            "mean_excess_distance_min": 0.31716417910447753
+          },
+          "20-40": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.6268656716417911,
+            "top3_hit_rate": 0.6417910447761194,
+            "feasible_rate": 0.7611940298507462,
+            "top1_hit_given_feasible": 0.8235294117647058,
+            "mean_excess_distance_min": 1.7098507462686563
+          },
+          "5-10": {
+            "cases": 67,
+            "compounds": 67,
+            "top1_hit_rate": 0.7910447761194029,
+            "top3_hit_rate": 0.7910447761194029,
+            "feasible_rate": 0.9701492537313433,
+            "top1_hit_given_feasible": 0.8153846153846154,
+            "mean_excess_distance_min": 0.21417910447761193
+          }
+        },
+        "excluded_incomplete_compounds": 3
+      }
+    }
+  },
+  "paired_mae_improvement": {
+    "meaning": "median baseline MAE minus selected model MAE; positive favors selected model",
+    "estimate_min": 2.682460831394887,
+    "interval_95_min": [
+      1.9361238529644003,
+      3.4946476759599054
+    ],
+    "resampling_unit": "compound group",
+    "replicates": 2000
+  },
+  "selection_sha256": "000f2173db6f035b90985a7dbb285678b69dfdbf17fe1853d4f5a9136a1a8e92",
+  "hashes": {
+    "config/experiment.json": "d0b496f074a3f8216a82b910b7875021ca9a5ccda94d85cbdda9a69750bcf79e",
+    "reports/EVALUATION_PROTOCOL.md": "076392eb5242bb22e9d7f0bd11a9b9b72113d1fc99dc7faa25a0635e71aed9c3",
+    "uv.lock": "556d53cae14523a25cb417e7c36ad1d2514b0257ea31466f57485aaac96dd08b",
+    "data/splits/compounds.csv": "4d1fc58698722df6952a5eb1771329298a2c65470fcc852b8c90f91953765698",
+    "data/splits/protocol.json": "b02909e3673d3cf7b61082907b554c815e6b29b39af668d47f2d07f67c55f963",
+    "data/processed/feature_schema.json": "fa63e237306ac56acec2e1b26f992c3a29232a85d195f9eb51891bbb745bee37",
+    "chromrt/__init__.py": "6a05c7279c9749b47e0c34d7cdabdb95312bd9cc40a6c01ea965846f586c46e8",
+    "chromrt/baseline.py": "6b7538825de6f349a7e5fc710ff899d3927725cd5b3b8f693803405f94bb2c5c",
+    "chromrt/chemistry.py": "d3697edaa73132a14c6a4a143f5a2d50f999cff1bd5a11699d69ee6a6ed5173b",
+    "chromrt/experiment.py": "54a4ec6a62981e5f87fe8092a75bb7f2e8e84e8f13db5bebf0322034276beed8",
+    "chromrt/methods.py": "3bafc4551c417bbcff00218b717c210052eaaeff921a7b764c96e5c64502ce60",
+    "chromrt/pipeline.py": "0dbe0895d8f0712b11ea75aa6e9f8d62153082fe4b4a6d6edb966b15483eb5bf",
+    "chromrt/prepare.py": "fa59a14991a1056e329d0b940993d81468376c171aed3f16a308fc972f87615f",
+    "chromrt/recommend.py": "822d3755459a7545b80e3c7f1e1efc8d9d217c861350c492995db42419e8a8ab",
+    "chromrt/splits.py": "9bdedec734f91167c2d71398f2137f91c8569952a6dc0eae9cc29da0c30ee296"
+  },
+  "model_hashes": {
+    "fixed_orders.json": "e23848b58fbf01c327e736b7dad26993b7c47e44ec4920e57f4769a7a4295d11",
+    "median.joblib": "aa087484c044ed2ad286b22978b33610e571e977a1a800f888ebe3da0d2bda3e",
+    "rf_leaf1.joblib": "569d422bc133ed1faa59a057192d027815b8b4c10706f9b34ca2682d7778f3ad",
+    "xgb_depth5.joblib": "9d00296e2fa1bab43c42711146cc922dd638f7f6776e5ce64beb51c652af783b"
+  },
+  "python_version": "3.11.5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "rdkit": "2026.3.6",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0"
+  },
+  "runtime_seconds": 5.885620207991451,
+  "evaluated_at_utc": "2026-09-24T04:46:30.526147+00:00",
+  "holdout_evaluated": true
+}

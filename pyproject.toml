@@ -1,0 +1,21 @@
+[project]
+name = "chromatography-mvp"
+version = "0.1.0"
+description = "Local, reproducible MCMRT retention-time experiments"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "numpy>=2,<3",
+  "pandas>=2.2,<3",
+  "openpyxl>=3.1,<4",
+  "rdkit>=2025.3,<2027",
+  "scikit-learn>=1.6,<2",
+  "xgboost>=3.1,<4",
+  "matplotlib>=3.10,<4",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,218 @@
+{
+  "doi": "10.57760/sciencedb.15823",
+  "version": "V3",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "verified_at_utc": "2026-09-24T03:29:16.739386+00:00",
+  "files": [
+    {
+      "name": "Dataset 01.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=6100921730d5f572935dc341f8947d33",
+      "bytes": 79119,
+      "md5": "05a19474f0c7677d3dc87cfaedcc4c62",
+      "sha256": "9c65bf960f235d1bb5f7587a082ddd91892781b55c317b2858a53fdb347fef3c"
+    },
+    {
+      "name": "Dataset 02.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=406161a6bf268fb5a0abd170bdd374f2",
+      "bytes": 78894,
+      "md5": "fb4936d0a4b3369cd3a5a65dfd3c7a09",
+      "sha256": "74ccffb57779c99adc8cf3616349d1fb35e52f52093534e3856bcf8378ea55c6"
+    },
+    {
+      "name": "Dataset 03.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=9ae9fff8d436d2b23a038710cc114be2",
+      "bytes": 78971,
+      "md5": "1788271158db41e8a32f064fce9c0a0d",
+      "sha256": "757e489dc32deb33edf15223dba3cf9f14611e5a6219cb05edd28cd2e59f2045"
+    },
+    {
+      "name": "Dataset 04.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=abb90806fa84a63fbc13177b77056625",
+      "bytes": 79270,
+      "md5": "c70b6fe328b5e39fc237fdc93039ea0d",
+      "sha256": "22a00ed5788b5838687d7dc3f02f89fa18b1262c3dbdf88192a38a16066d1bc0"
+    },
+    {
+      "name": "Dataset 05.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=a1ee4c8ba4d8f7ca564ad22c40c4429c",
+      "bytes": 78875,
+      "md5": "0172b95721f5ecb4d59d7f7a23c66500",
+      "sha256": "884bfa679e68809d83bead9199deac61c2438a9f237c64c1f987d614ce1bebaf"
+    },
+    {
+      "name": "Dataset 06.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=3b94d5c9b3272d0e86f67ee013db4bec",
+      "bytes": 79274,
+      "md5": "90670bf504dfb773a0c7ac5dca1056cb",
+      "sha256": "576bfb176041d7d1230b2053cfa7249ea426084e0e5eb256c1b8f84aa37be0b9"
+    },
+    {
+      "name": "Dataset 07.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=172047a5e89705dc06e7a37b19c21be1",
+      "bytes": 79454,
+      "md5": "97dff1072951f63e3c90edb0b032f9e8",
+      "sha256": "8952906c9eaa3d0b606aeccd789dcc8f4e2a1883f6db8ea50d6902b35bd1ea60"
+    },
+    {
+      "name": "Dataset 08.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=67a8450054cf4384999e6e9bb39cb566",
+      "bytes": 79063,
+      "md5": "79bdf300fdd3f1823bb95711e091d643",
+      "sha256": "4bc8bff5974c513d4fbb3b8eada6631f6375d19f27cf0de5093452673e5ac572"
+    },
+    {
+      "name": "Dataset 09.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=a4ba24dbb697428464ad79f009402f07",
+      "bytes": 79368,
+      "md5": "4e101b613a475bce6a266013b85d45b7",
+      "sha256": "44f1c0cb99c7eccd40fc15d7aac7d86e6c0c045a1e1ffa90af8a49396098ac8f"
+    },
+    {
+      "name": "Dataset 10.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=3dbe23717db7b0019d59bc2624c1bd72",
+      "bytes": 79243,
+      "md5": "fab9a8bbc216e85217515cbb54c25d96",
+      "sha256": "a68b6a2a810d05693a8cfbbeabd4aa8ddfa5fa725e7654ce3db7790edaee552d"
+    },
+    {
+      "name": "Dataset 11.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=8452d0c829d9ad255bbe278024aa20bd",
+      "bytes": 79178,
+      "md5": "06583504d1a5e1a74d1166c873ce1b77",
+      "sha256": "f57bfc925c5eff28141c611bf57b1cb4336ffe58600489a5fd25c551a7d6581a"
+    },
+    {
+      "name": "Dataset 12.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=b0fc41ec027baaed5840b71351ab0016",
+      "bytes": 79495,
+      "md5": "ac5783b97459961ddbccee32c2dcc670",
+      "sha256": "ecb9f3e6689e2e8a51713e0aa460ab25063e30ed14b7964363e3e95c19b8d280"
+    },
+    {
+      "name": "Dataset 13.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=6ce9d41f30611e7c8fc4275eee2ad1da",
+      "bytes": 79500,
+      "md5": "1d07eba1632943ff138a36e2783d9337",
+      "sha256": "c741c2b3f9106fee03303d48292aaad64778abf5388ba5b3224e3f24694132f3"
+    },
+    {
+      "name": "Dataset 14.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=9a729387d0745f04d7baafa5aec060b4",
+      "bytes": 79704,
+      "md5": "3ef5c07a65e45e9ea219853cfad2ffa7",
+      "sha256": "a73c7b81bd9575926a05ff6c886d79660984bae60b1b47e6b742ec239f62bdfd"
+    },
+    {
+      "name": "Dataset 15.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=b42484c3226c44da47aaf84594117a5d",
+      "bytes": 79372,
+      "md5": "50d528e0bd38bd807f8be47aca5a9a04",
+      "sha256": "9cb2b49db93681a31a76248fcef35dea5fd5f84c589c0547aca65c3cfbb1d63e"
+    },
+    {
+      "name": "Dataset 16.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=9718163d19927cc75740c395d93412f6",
+      "bytes": 79353,
+      "md5": "4c64dfe7757318b833bbcd4d53a6bad4",
+      "sha256": "08b51a4f692a090a2bb72ac1cd23f66cad0c81f261c3fcb5e1157361492dc412"
+    },
+    {
+      "name": "Dataset 17.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=6822d45b586a99baf0c122b122b010f4",
+      "bytes": 79157,
+      "md5": "1fc20e553017f96c3c5dcf7c748d7a63",
+      "sha256": "cb26384dc38afca89fcead98e22598991f15bc383e04516c46454967bbca4818"
+    },
+    {
+      "name": "Dataset 18.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=c58fc79029bbb3637747da6dc49b4331",
+      "bytes": 79137,
+      "md5": "031c6c34f0dca20d943cb094b4094bff",
+      "sha256": "c1d6dab80a6fec8a6a0736cf3b4a5013fbd2276f1c9e197be15e5a623ad11bb4"
+    },
+    {
+      "name": "Dataset 19.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=33eff78009fb6cd3cad9dbec086ae509",
+      "bytes": 79182,
+      "md5": "b135863bc1e2a82102a00bbb3dbd8db1",
+      "sha256": "631800fbe601cf593e9b78f36465e2687aaf75588748acd8ae6298424e1d4378"
+    },
+    {
+      "name": "Dataset 20.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=37f3b0742d8a425de43f0fc855ccd141",
+      "bytes": 78149,
+      "md5": "146ab4d2416b1b47afcc2e577d2ebbc0",
+      "sha256": "11c1c2d93a0365c490f05d39513a0af19aa50bab203b2821b0676f163c7511b9"
+    },
+    {
+      "name": "Dataset 21.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=d1433faf11a4621b199c0d22a9293f8e",
+      "bytes": 78248,
+      "md5": "f8587d78718add0cc7bbae57416a5019",
+      "sha256": "01d9a9b0af38a8ac0db19f27efecd596ab5c90fd00aa3543955ddac150233d18"
+    },
+    {
+      "name": "Dataset 22.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=8ca99333869ee8fa1a68430042a39e66",
+      "bytes": 78413,
+      "md5": "43e8ce46a881a0632d49bd1b6246a99b",
+      "sha256": "93428bc0208f9eaa34454eb1ff78a694b970bda2d81e8bdd2fac3c33cae78c98"
+    },
+    {
+      "name": "Dataset 23.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=f46d640c12ab4fda6d4db06daa22979b",
+      "bytes": 78605,
+      "md5": "7d1a415e6783c0256915f94b669b641a",
+      "sha256": "18d470ea3a86d73c8634d66d2c57a30c835d8abb2cd19ad5a5380bd6993f6f70"
+    },
+    {
+      "name": "Dataset 24.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=deedb83f94e496b45cbb8a6e5297d706",
+      "bytes": 78322,
+      "md5": "3a9903521e91acf221c0fc8b0ac85a04",
+      "sha256": "35c165c6148772500fd0b27ba2d08ba5ac28bb2fffaf9e815e2df31fd0b463be"
+    },
+    {
+      "name": "Dataset 25.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=72430bade2945a3a1d1896c9c5157eff",
+      "bytes": 80467,
+      "md5": "f54650cedde335290d8978dec767bb87",
+      "sha256": "5da58abe91c2e939d121afebccff49deba7eedffb4ff320cd38b2a47243602c9"
+    },
+    {
+      "name": "Dataset 26.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=445ae018fb83cd3dcdcf644d53e4aa74",
+      "bytes": 80464,
+      "md5": "c4ac70184a1cf3a893365a1181f512b9",
+      "sha256": "c76079c5b2667d6b3f778b7667a2abc34b85d9d49437ca097ac304bcc5833222"
+    },
+    {
+      "name": "Dataset 27.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=b816aacc3100e498052f825c648ecc1a",
+      "bytes": 80573,
+      "md5": "01e143e398e0225b2a050b7848f21f23",
+      "sha256": "315eb482a38cf873e0f1778033efbacd5bd324fce4070f3dbda1da65a6723400"
+    },
+    {
+      "name": "Dataset 28.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=b483d730eac0685289fbad3f1309c158",
+      "bytes": 80646,
+      "md5": "fe7afcca2d1c455a51d8f4acef84f675",
+      "sha256": "f1140786fc4f0e57d326a570c866dfa26307abf87595c1b158293392020c1056"
+    },
+    {
+      "name": "Dataset 29.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=44060ab7b6fc444be2a2b4163997a512",
+      "bytes": 80653,
+      "md5": "d7d354e411d4d647bf9c8142b5972da5",
+      "sha256": "0c588549b89ef3a7ddba2594f75e321fd5c19583f3c319c9e55b426a0e0145e1"
+    },
+    {
+      "name": "Dataset 30.xlsx",
+      "url": "https://china.scidb.cn/download?fileId=a5d90adb419966f2d20b3faa140153c3",
+      "bytes": 80307,
+      "md5": "58cde57d422d291792e366f012a479a9",
+      "sha256": "b8fe140b5591af31b05f05096beaf9982e35dfe8034df8a29a30921120e70bca"
+    }
+  ]
+}

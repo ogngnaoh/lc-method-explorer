@@ -1,0 +1,9 @@
+# Keep exact bytes across platforms: frozen provenance hashes include text files.
+* -text
+*.png binary
+*.gif binary
+*.pdf binary
+*.pptx binary
+# Generated SVG paths and source measurements may contain intentional spaces.
+*.svg whitespace=-blank-at-eol
+*.csv whitespace=-blank-at-eol

@@ -1,0 +1,1715 @@
+{
+  "files": 30,
+  "rows_with_compound_id": 10073,
+  "measured_rt": 10073,
+  "unique_source_compound_ids": 343,
+  "compounds_measured_in_all_methods": 330,
+  "coverage_histogram_methods_per_compound": {
+    "6": 8,
+    "25": 5,
+    "30": 330
+  },
+  "inconsistent_structures_by_source_id": {},
+  "distinct_column_names": [
+    "ACQUITY BEH C18",
+    "ACQUITY PRIMER HSS T3 with VanGuard",
+    "ACQUITY UPLC HSS T3",
+    "Acclaim 120 C18",
+    "Acclaim RSLC 120 C18",
+    "Thermo Hypersil GOLD"
+  ],
+  "distinct_mobile_phase_pairs": [
+    [
+      "Water with 0.1% formic acid",
+      "Acetonitrile with 0.1% formic acid"
+    ],
+    [
+      "Water with 0.1% formic acid and 4 mM ammonium formate",
+      "Methanol with 0.1% formic acid and 4 mM ammonium formate"
+    ],
+    [
+      "Water with 5 mM ammonium acetate",
+      "Methanol with 5 mM ammonium acetate"
+    ],
+    [
+      "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+      "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+    ],
+    [
+      "Water/methanol=90:10, v/v with 0.1% formic acid and 5 mM ammonium formate",
+      "Acetonitrile"
+    ],
+    [
+      "Water/methanol=90:10, v/v with 5 mM ammonium formate",
+      "Methanol with 5 mM ammonium formate"
+    ]
+  ],
+  "distinct_time_percent_b_programs": 15,
+  "column_temperatures_c": [
+    30,
+    40,
+    45
+  ],
+  "run_times_min": [
+    10,
+    14,
+    15,
+    20,
+    21,
+    30,
+    45,
+    60,
+    100
+  ],
+  "rt_min_range": [
+    0.59,
+    74.09
+  ],
+  "issues": [],
+  "methods": [
+    {
+      "method_id": "01",
+      "source_file": "Dataset 01.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY PRIMER HSS T3 with VanGuard",
+        "Column dimensions": "100 x 2.1 mm, 1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.27,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          5
+        ],
+        [
+          1,
+          0.2,
+          5
+        ],
+        [
+          2,
+          0.2,
+          40
+        ],
+        [
+          6,
+          0.2,
+          100
+        ],
+        [
+          8,
+          0.2,
+          100
+        ],
+        [
+          8.1,
+          0.2,
+          5
+        ],
+        [
+          10,
+          0.2,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "02",
+      "source_file": "Dataset 02.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim RSLC 120 C18",
+        "Column dimensions": "100 x 2.1 mm, 2.2 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.92,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.3,
+          0
+        ],
+        [
+          2,
+          0.3,
+          0
+        ],
+        [
+          10,
+          0.3,
+          100
+        ],
+        [
+          12,
+          0.3,
+          100
+        ],
+        [
+          12.1,
+          0.3,
+          0
+        ],
+        [
+          15,
+          0.3,
+          0
+        ]
+      ]
+    },
+    {
+      "method_id": "03",
+      "source_file": "Dataset 03.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim RSLC 120 C18",
+        "Column dimensions": "100x2.1 mm, 2.2 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.36,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          3,
+          0.2,
+          39
+        ],
+        [
+          14,
+          0.4,
+          99
+        ],
+        [
+          16,
+          0.48,
+          99
+        ],
+        [
+          16.1,
+          0.2,
+          1
+        ],
+        [
+          21,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "04",
+      "source_file": "Dataset 04.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Thermo Hypersil GOLD",
+        "Column dimensions": "100 x 2.1 mm, 1.9 μm",
+        "Sample temperature (°C)": 4,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.38,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          3,
+          0.2,
+          39
+        ],
+        [
+          14,
+          0.4,
+          99
+        ],
+        [
+          16,
+          0.48,
+          99
+        ],
+        [
+          16.1,
+          0.2,
+          1
+        ],
+        [
+          21,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "05",
+      "source_file": "Dataset 05.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY BEH C18",
+        "Column dimensions": "100 x 2.1 mm, 1.7 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 40,
+        "Dead time (min)": 1.31,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          3,
+          0.2,
+          39
+        ],
+        [
+          14,
+          0.4,
+          99
+        ],
+        [
+          16,
+          0.48,
+          99
+        ],
+        [
+          16.1,
+          0.2,
+          1
+        ],
+        [
+          21,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "06",
+      "source_file": "Dataset 06.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY PRIMER HSS T3 with VanGuard",
+        "Column dimensions": "100 x 2.1 mm, 1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.4,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          0
+        ],
+        [
+          2,
+          0.2,
+          0
+        ],
+        [
+          4,
+          0.2,
+          40
+        ],
+        [
+          15,
+          0.2,
+          100
+        ],
+        [
+          18,
+          0.2,
+          100
+        ],
+        [
+          18.1,
+          0.2,
+          0
+        ],
+        [
+          21,
+          0.2,
+          0
+        ]
+      ]
+    },
+    {
+      "method_id": "07",
+      "source_file": "Dataset 07.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim RSLC 120 C18",
+        "Column dimensions": "100 x 2.1 mm, 2.2 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.37,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          5,
+          0.2,
+          39
+        ],
+        [
+          21,
+          0.4,
+          99
+        ],
+        [
+          25,
+          0.48,
+          99
+        ],
+        [
+          25.1,
+          0.2,
+          1
+        ],
+        [
+          30,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "08",
+      "source_file": "Dataset 08.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim RSLC 120 C18",
+        "Column dimensions": "100 x 2.1 mm, 2.2 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.91,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.3,
+          0
+        ],
+        [
+          2,
+          0.3,
+          0
+        ],
+        [
+          24,
+          0.3,
+          100
+        ],
+        [
+          27,
+          0.3,
+          100
+        ],
+        [
+          27.1,
+          0.3,
+          0
+        ],
+        [
+          30,
+          0.3,
+          0
+        ]
+      ]
+    },
+    {
+      "method_id": "09",
+      "source_file": "Dataset 09.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Thermo Hypersil GOLD",
+        "Column dimensions": "100 x 2.1 mm, 1.9 μm",
+        "Sample temperature (°C)": 4,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.93,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.3,
+          0
+        ],
+        [
+          2,
+          0.3,
+          0
+        ],
+        [
+          24,
+          0.3,
+          100
+        ],
+        [
+          27,
+          0.3,
+          100
+        ],
+        [
+          27.1,
+          0.3,
+          0
+        ],
+        [
+          30,
+          0.3,
+          0
+        ]
+      ]
+    },
+    {
+      "method_id": "10",
+      "source_file": "Dataset 10.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim RSLC 120 C18",
+        "Column dimensions": "100 x 2.1 mm, 2.2 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.35,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          0
+        ],
+        [
+          2,
+          0.2,
+          0
+        ],
+        [
+          24,
+          0.2,
+          100
+        ],
+        [
+          27,
+          0.2,
+          100
+        ],
+        [
+          27.1,
+          0.2,
+          0
+        ],
+        [
+          30,
+          0.2,
+          0
+        ]
+      ]
+    },
+    {
+      "method_id": "11",
+      "source_file": "Dataset 11.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY BEH C18",
+        "Column dimensions": "100 x 2.1 mm, 1.7 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.33,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          0
+        ],
+        [
+          2,
+          0.2,
+          0
+        ],
+        [
+          24,
+          0.2,
+          100
+        ],
+        [
+          27,
+          0.2,
+          100
+        ],
+        [
+          27.1,
+          0.2,
+          0
+        ],
+        [
+          30,
+          0.2,
+          0
+        ]
+      ]
+    },
+    {
+      "method_id": "12",
+      "source_file": "Dataset 12.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim RSLC 120 C18",
+        "Column dimensions": "100 x 2.1 mm, 2.2 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.94,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.3,
+          0
+        ],
+        [
+          2,
+          0.3,
+          0
+        ],
+        [
+          38,
+          0.3,
+          100
+        ],
+        [
+          42,
+          0.3,
+          100
+        ],
+        [
+          42.1,
+          0.3,
+          0
+        ],
+        [
+          45,
+          0.3,
+          0
+        ]
+      ]
+    },
+    {
+      "method_id": "13",
+      "source_file": "Dataset 13.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY PRIMER HSS T3 with VanGuard",
+        "Column dimensions": "100 x 2.1 mm, 1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.27,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          12,
+          0.2,
+          40
+        ],
+        [
+          40,
+          0.2,
+          100
+        ],
+        [
+          49,
+          0.2,
+          100
+        ],
+        [
+          50,
+          0.2,
+          1
+        ],
+        [
+          60,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "14",
+      "source_file": "Dataset 14.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY UPLC HSS T3",
+        "Column dimensions": "2.1 x 50 mm,1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.75,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          12,
+          0.2,
+          40
+        ],
+        [
+          40,
+          0.2,
+          100
+        ],
+        [
+          49,
+          0.2,
+          100
+        ],
+        [
+          50,
+          0.2,
+          1
+        ],
+        [
+          60,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "15",
+      "source_file": "Dataset 15.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim 120 C18",
+        "Column dimensions": "4.6 x 150 mm, 5 μm",
+        "Sample temperature (°C)": 4,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.6,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          12,
+          1,
+          40
+        ],
+        [
+          40,
+          1,
+          100
+        ],
+        [
+          49,
+          1,
+          100
+        ],
+        [
+          50,
+          1,
+          5
+        ],
+        [
+          60,
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "16",
+      "source_file": "Dataset 16.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY PRIMER HSS T3 with VanGuard",
+        "Column dimensions": "100 x 2.1 mm, 1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.25,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.01% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.01% formic acid and 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          2,
+          0.2,
+          1
+        ],
+        [
+          40,
+          0.2,
+          40
+        ],
+        [
+          70,
+          0.2,
+          100
+        ],
+        [
+          89,
+          0.2,
+          100
+        ],
+        [
+          90,
+          0.2,
+          1
+        ],
+        [
+          100,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "17",
+      "source_file": "Dataset 17.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Thermo Hypersil GOLD",
+        "Column dimensions": "100 x 2.1 mm, 1.9 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 45,
+        "Dead time (min)": 0.92,
+        "Mobile phase A": "Water with 0.1% formic acid and 4 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.1% formic acid and 4 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.3,
+          12
+        ],
+        [
+          8,
+          0.3,
+          95
+        ],
+        [
+          9,
+          0.3,
+          100
+        ],
+        [
+          11,
+          0.3,
+          100
+        ],
+        [
+          11.1,
+          0.3,
+          12
+        ],
+        [
+          14,
+          0.3,
+          12
+        ]
+      ]
+    },
+    {
+      "method_id": "18",
+      "source_file": "Dataset 18.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Thermo Hypersil GOLD",
+        "Column dimensions": "100 x 2.1 mm, 1.9 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.44,
+        "Mobile phase A": "Water with 0.1% formic acid and 4 mM ammonium formate",
+        "Mobile phase B": "Methanol with 0.1% formic acid and 4 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          3,
+          0.2,
+          39
+        ],
+        [
+          14,
+          0.4,
+          99
+        ],
+        [
+          16,
+          0.48,
+          99
+        ],
+        [
+          16.1,
+          0.2,
+          1
+        ],
+        [
+          21,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "19",
+      "source_file": "Dataset 19.xlsx",
+      "rows_with_compound_id": 335,
+      "measured_rt": 335,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim RSLC 120 C18",
+        "Column dimensions": "100 x 2.1 mm, 2.2 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.37,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 0.1% formic acid and 5 mM ammonium formate",
+        "Mobile phase B": "Acetonitrile"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          3,
+          0.2,
+          39
+        ],
+        [
+          14,
+          0.4,
+          99
+        ],
+        [
+          16,
+          0.48,
+          99
+        ],
+        [
+          16.1,
+          0.2,
+          1
+        ],
+        [
+          21,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "20",
+      "source_file": "Dataset 20.xlsx",
+      "rows_with_compound_id": 330,
+      "measured_rt": 330,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY PRIMER HSS T3 with VanGuard",
+        "Column dimensions": "100 x 2.1 mm, 1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.63,
+        "Mobile phase A": "Water with 0.1% formic acid",
+        "Mobile phase B": "Acetonitrile with 0.1% formic acid"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.5,
+          2
+        ],
+        [
+          2,
+          0.5,
+          2
+        ],
+        [
+          15,
+          0.5,
+          99
+        ],
+        [
+          17,
+          0.5,
+          99
+        ],
+        [
+          18,
+          0.5,
+          2
+        ],
+        [
+          20,
+          0.5,
+          2
+        ]
+      ]
+    },
+    {
+      "method_id": "21",
+      "source_file": "Dataset 21.xlsx",
+      "rows_with_compound_id": 330,
+      "measured_rt": 330,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Thermo Hypersil GOLD",
+        "Column dimensions": "100x2.1 mm, 1.9 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.41,
+        "Mobile phase A": "Water with 0.1% formic acid",
+        "Mobile phase B": "Acetonitrile with 0.1% formic acid"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          3,
+          0.2,
+          39
+        ],
+        [
+          14,
+          0.4,
+          99
+        ],
+        [
+          16,
+          0.48,
+          99
+        ],
+        [
+          16.1,
+          0.2,
+          1
+        ],
+        [
+          21,
+          0.2,
+          1
+        ]
+      ]
+    },
+    {
+      "method_id": "22",
+      "source_file": "Dataset 22.xlsx",
+      "rows_with_compound_id": 330,
+      "measured_rt": 330,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY PRIMER HSS T3 with VanGuard",
+        "Column dimensions": "100 x 2.1 mm, 1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.21,
+        "Mobile phase A": "Water with 0.1% formic acid",
+        "Mobile phase B": "Acetonitrile with 0.1% formic acid"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          5
+        ],
+        [
+          2,
+          0.2,
+          5
+        ],
+        [
+          10,
+          0.2,
+          40
+        ],
+        [
+          35,
+          0.2,
+          100
+        ],
+        [
+          39,
+          0.2,
+          100
+        ],
+        [
+          40,
+          0.2,
+          5
+        ],
+        [
+          45,
+          0.2,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "23",
+      "source_file": "Dataset 23.xlsx",
+      "rows_with_compound_id": 330,
+      "measured_rt": 330,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY UPLC HSS T3",
+        "Column dimensions": "2.1 x 50 mm,1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.75,
+        "Mobile phase A": "Water with 0.1% formic acid",
+        "Mobile phase B": "Acetonitrile with 0.1% formic acid"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          5
+        ],
+        [
+          2,
+          0.2,
+          5
+        ],
+        [
+          10,
+          0.2,
+          40
+        ],
+        [
+          35,
+          0.2,
+          100
+        ],
+        [
+          39,
+          0.2,
+          100
+        ],
+        [
+          40,
+          0.2,
+          5
+        ],
+        [
+          45,
+          0.2,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "24",
+      "source_file": "Dataset 24.xlsx",
+      "rows_with_compound_id": 330,
+      "measured_rt": 330,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim 120 C18",
+        "Column dimensions": "4.6 x 150 mm, 5 μm",
+        "Sample temperature (°C)": 4,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.56,
+        "Mobile phase A": "Water with 0.1% formic acid",
+        "Mobile phase B": "Acetonitrile with 0.1% formic acid"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          10,
+          1,
+          40
+        ],
+        [
+          35,
+          1,
+          100
+        ],
+        [
+          39,
+          1,
+          100
+        ],
+        [
+          40,
+          1,
+          5
+        ],
+        [
+          45,
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "25",
+      "source_file": "Dataset 25.xlsx",
+      "rows_with_compound_id": 343,
+      "measured_rt": 343,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY PRIMER HSS T3 with VanGuard",
+        "Column dimensions": "100 x 2.1 mm, 1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.3,
+        "Mobile phase A": "Water with 5 mM ammonium acetate",
+        "Mobile phase B": "Methanol with 5 mM ammonium acetate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          5
+        ],
+        [
+          1,
+          0.2,
+          5
+        ],
+        [
+          7,
+          0.2,
+          40
+        ],
+        [
+          14,
+          0.2,
+          100
+        ],
+        [
+          18,
+          0.2,
+          100
+        ],
+        [
+          18.1,
+          0.2,
+          5
+        ],
+        [
+          20,
+          0.2,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "26",
+      "source_file": "Dataset 26.xlsx",
+      "rows_with_compound_id": 343,
+      "measured_rt": 343,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY UPLC HSS T3",
+        "Column dimensions": "2.1 x 50 mm,1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.78,
+        "Mobile phase A": "Water with 5 mM ammonium acetate",
+        "Mobile phase B": "Methanol with 5 mM ammonium acetate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          5
+        ],
+        [
+          1,
+          0.2,
+          5
+        ],
+        [
+          7,
+          0.2,
+          40
+        ],
+        [
+          14,
+          0.2,
+          100
+        ],
+        [
+          18,
+          0.2,
+          100
+        ],
+        [
+          18.1,
+          0.2,
+          5
+        ],
+        [
+          20,
+          0.2,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "27",
+      "source_file": "Dataset 27.xlsx",
+      "rows_with_compound_id": 343,
+      "measured_rt": 343,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY PRIMER HSS T3 with VanGuard",
+        "Column dimensions": "100 x 2.1 mm, 1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.29,
+        "Mobile phase A": "Water with 5 mM ammonium acetate",
+        "Mobile phase B": "Methanol with 5 mM ammonium acetate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          5
+        ],
+        [
+          2,
+          0.2,
+          5
+        ],
+        [
+          6,
+          0.2,
+          40
+        ],
+        [
+          20,
+          0.2,
+          100
+        ],
+        [
+          25,
+          0.2,
+          100
+        ],
+        [
+          26,
+          0.2,
+          5
+        ],
+        [
+          30,
+          0.2,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "28",
+      "source_file": "Dataset 28.xlsx",
+      "rows_with_compound_id": 343,
+      "measured_rt": 343,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "ACQUITY UPLC HSS T3",
+        "Column dimensions": "2.1 x 50 mm,1.8 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 0.78,
+        "Mobile phase A": "Water with 5 mM ammonium acetate",
+        "Mobile phase B": "Methanol with 5 mM ammonium acetate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          5
+        ],
+        [
+          2,
+          0.2,
+          5
+        ],
+        [
+          6,
+          0.2,
+          40
+        ],
+        [
+          20,
+          0.2,
+          100
+        ],
+        [
+          25,
+          0.2,
+          100
+        ],
+        [
+          26,
+          0.2,
+          5
+        ],
+        [
+          30,
+          0.2,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "29",
+      "source_file": "Dataset 29.xlsx",
+      "rows_with_compound_id": 343,
+      "measured_rt": 343,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim 120 C18",
+        "Column dimensions": "4.6 x 150 mm, 5 μm",
+        "Sample temperature (°C)": 4,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.67,
+        "Mobile phase A": "Water with 5 mM ammonium acetate",
+        "Mobile phase B": "Methanol with 5 mM ammonium acetate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          6,
+          1,
+          40
+        ],
+        [
+          20,
+          1,
+          100
+        ],
+        [
+          25,
+          1,
+          100
+        ],
+        [
+          26,
+          1,
+          5
+        ],
+        [
+          30,
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "method_id": "30",
+      "source_file": "Dataset 30.xlsx",
+      "rows_with_compound_id": 343,
+      "measured_rt": 343,
+      "settings": {
+        "Source": "NIM (China)",
+        "Instrument": "LC-ESI-Orbitrap",
+        "Instrument manufacturer": "Thermo Fisher Scientific",
+        "Model type": "Vanquish Q-Exactive plus",
+        "Analytical column": "Acclaim RSLC 120 C18",
+        "Column dimensions": "100 x 2.1 mm, 2.2 μm",
+        "Sample temperature (°C)": 10,
+        "Column temperature (°C)": 30,
+        "Dead time (min)": 1.35,
+        "Mobile phase A": "Water/methanol=90:10, v/v with 5 mM ammonium formate",
+        "Mobile phase B": "Methanol with 5 mM ammonium formate"
+      },
+      "gradient_time_flow_percent_b": [
+        [
+          0,
+          0.2,
+          1
+        ],
+        [
+          1,
+          0.2,
+          1
+        ],
+        [
+          3,
+          0.2,
+          39
+        ],
+        [
+          14,
+          0.4,
+          99
+        ],
+        [
+          16,
+          0.48,
+          99
+        ],
+        [
+          16.1,
+          0.2,
+          1
+        ],
+        [
+          21,
+          0.2,
+          1
+        ]
+      ]
+    }
+  ],
+  "limitations": [
+    "Compound counts use source identifiers, not RDKit-standardized structures.",
+    "No model training or evaluation has been performed."
+  ]
+}

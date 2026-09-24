@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+*.download
+.pytest_cache/
+models/
+
+.presentation-build/
+
+# Private preparation and build artifacts
+HANDOFF.md
+PLAN.md
+INTERVIEW_NOTES.md
+references/
+demo/DESIGN.md
+presentation/chromatography-project.pptx
+.chart-data-*/
+.public-build/

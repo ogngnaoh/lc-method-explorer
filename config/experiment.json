@@ -1,0 +1,17 @@
+{
+  "experiment_id": "mcmrt-v3-compound-v1",
+  "seed": 20260924,
+  "workers": 4,
+  "selection_metric": "development pooled out-of-fold MAE in minutes",
+  "windows_min": [[2, 5], [5, 10], [10, 20], [20, 40]],
+  "ranking_rule": "distance to window; distance to window center; run duration; method ID",
+  "bootstrap_samples": 2000,
+  "candidates": [
+    {"id": "rf_leaf1", "family": "random_forest", "params": {"n_estimators": 250, "min_samples_leaf": 1, "max_features": 0.8}},
+    {"id": "rf_leaf3", "family": "random_forest", "params": {"n_estimators": 250, "min_samples_leaf": 3, "max_features": 0.8}},
+    {"id": "rf_leaf5", "family": "random_forest", "params": {"n_estimators": 250, "min_samples_leaf": 5, "max_features": 1.0}},
+    {"id": "xgb_depth3", "family": "xgboost", "params": {"n_estimators": 350, "max_depth": 3, "learning_rate": 0.05, "min_child_weight": 5, "subsample": 0.9, "colsample_bytree": 0.9, "reg_lambda": 5}},
+    {"id": "xgb_depth5", "family": "xgboost", "params": {"n_estimators": 350, "max_depth": 5, "learning_rate": 0.05, "min_child_weight": 5, "subsample": 0.9, "colsample_bytree": 0.9, "reg_lambda": 5}},
+    {"id": "xgb_depth7", "family": "xgboost", "params": {"n_estimators": 350, "max_depth": 7, "learning_rate": 0.05, "min_child_weight": 5, "subsample": 0.9, "colsample_bytree": 0.9, "reg_lambda": 5}}
+  ]
+}

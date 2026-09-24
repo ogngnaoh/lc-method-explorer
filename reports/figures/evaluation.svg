@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="396pt" viewBox="0 0 864 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-24T03:49:03.974274</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 864 396 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 32.4 24.48 
+L 72 24.48 
+L 72 19.44 
+L 32.4 19.44 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #00857b; stroke: #00857b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 32.4 273.6 
+L 255.6 273.6 
+L 255.6 129.6 
+L 32.4 129.6 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #edf6f3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 298.8 198 
+L 525.6 198 
+L 525.6 115.2 
+L 298.8 115.2 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #edf6f3"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 298.8 313.2 
+L 525.6 313.2 
+L 525.6 230.4 
+L 298.8 230.4 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #edf6f3"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 568.8 198 
+L 831.6 198 
+L 831.6 115.2 
+L 568.8 115.2 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #edf6f3"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 568.8 313.2 
+L 831.6 313.2 
+L 831.6 230.4 
+L 568.8 230.4 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #edf6f3"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 257.596436 158.4 
+Q 275.399832 158.4 290.967161 158.4 
+" clip-path="url(#pcef7118dd9)" style="fill: none; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 284.567161 155.2 
+L 290.967161 158.4 
+L 284.567161 161.6 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #00857b; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 257.357153 252.958447 
+Q 275.399719 262.799847 291.479251 271.5705 
+" clip-path="url(#pcef7118dd9)" style="fill: none; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 287.393046 265.696581 
+L 291.479251 271.5705 
+L 284.328392 271.315113 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #00857b; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 527.596436 158.4 
+Q 545.399832 158.4 560.967161 158.4 
+" clip-path="url(#pcef7118dd9)" style="fill: none; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 554.567161 155.2 
+L 560.967161 158.4 
+L 554.567161 161.6 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #00857b; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 527.596436 273.6 
+Q 545.399832 273.6 560.967161 273.6 
+" clip-path="url(#pcef7118dd9)" style="fill: none; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 554.567161 270.4 
+L 560.967161 273.6 
+L 554.567161 276.8 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #00857b; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 698.4 202.158369 
+Q 698.4 214.197882 698.4 224.001326 
+" clip-path="url(#pcef7118dd9)" style="fill: none; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 701.6 217.601326 
+L 698.4 224.001326 
+L 695.2 217.601326 
+z
+" clip-path="url(#pcef7118dd9)" style="fill: #00857b; stroke: #00857b; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="32.4" y="61.92" transform="rotate(-0 32.4 61.92)">Keep compound groups together</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586b65" x="32.4" y="91.44" transform="rotate(-0 32.4 91.44)">All measurements for a group stay in the same partition.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="46.8" y="156.24" transform="rotate(-0 46.8 156.24)">341 groups</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #24332f" transform="translate(46.8 197.95125)">343 source compounds</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #24332f" transform="translate(46.8 217.701562)">10,073 measured retention times</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #24332f" transform="translate(46.8 237.51375)">30 known methods</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="313.2" y="141.84" transform="rotate(-0 313.2 141.84)">Development</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="313.2" y="183.445313" transform="rotate(-0 313.2 183.445313)">272 groups / 8,026 rows</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="313.2" y="257.04" transform="rotate(-0 313.2 257.04)">Final holdout</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="313.2" y="298.645313" transform="rotate(-0 313.2 298.645313)">69 groups / 2,047 rows</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="583.2" y="141.84" transform="rotate(-0 583.2 141.84)">Select and freeze</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="583.2" y="183.55125" transform="rotate(-0 583.2 183.55125)">Five grouped validation folds</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="583.2" y="257.04" transform="rotate(-0 583.2 257.04)">Evaluate once</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #24332f" x="583.2" y="298.75125" transform="rotate(-0 583.2 298.75125)">70 compounds, unseen in fitting</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586b65" x="32.4" y="361.44" transform="rotate(-0 32.4 361.44)">Group separation is not scaffold separation. The evaluated holdout is closed to further tuning.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcef7118dd9">
+   <rect x="0" y="0" width="864" height="396"/>
+  </clipPath>
+ </defs>
+</svg>

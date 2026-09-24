@@ -1,0 +1,11 @@
+{
+  "seed": 20260924,
+  "holdout_group_fraction": 0.2,
+  "cv_folds": 5,
+  "input_sha256": {
+    "compounds.csv": "bddde4e1249764292fafd7f69d32c977486fda39be27894a8bdb5cb694f15a44",
+    "gradients.csv": "d7a440f8ada0c13405ad89cb17b796a0f1f0feae4c16d22bc0d3452dae36db58",
+    "methods.csv": "a3cdb4b8d220970458e1e45fb08d337e1743dc983039e9bf5620e2872afb1821",
+    "observations.csv": "fdf249663b5c69e5780906e4977c42b66668ad9465f6935c33f4173a28dcf6e6"
+  }
+}

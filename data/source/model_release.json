@@ -1,0 +1,12 @@
+{
+  "experiment_id": "mcmrt-v3-compound-v1",
+  "url": "https://github.com/ogngnaoh/lc-method-explorer/releases/download/v0.1.0/lc-method-explorer-models-v0.1.0.zip",
+  "archive_sha256": "ad8849caeb8d6adfd09f3b147ebf74a98476cbbf0f881a0573389fd06501df43",
+  "files": {
+    "fixed_orders.json": "e23848b58fbf01c327e736b7dad26993b7c47e44ec4920e57f4769a7a4295d11",
+    "median.joblib": "aa087484c044ed2ad286b22978b33610e571e977a1a800f888ebe3da0d2bda3e",
+    "metadata.json": "1dd0f01bde6b631c0cce2dbd481de239c7fd6183bad9a11761ac37879e3d88a5",
+    "rf_leaf1.joblib": "569d422bc133ed1faa59a057192d027815b8b4c10706f9b34ca2682d7778f3ad",
+    "xgb_depth5.joblib": "9d00296e2fa1bab43c42711146cc922dd638f7f6776e5ce64beb51c652af783b"
+  }
+}

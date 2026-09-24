@@ -1,0 +1,135 @@
+{
+  "rdkit_version": "2026.03.6",
+  "files": {
+    "compounds": {
+      "rows": 343,
+      "sha256": "bddde4e1249764292fafd7f69d32c977486fda39be27894a8bdb5cb694f15a44"
+    },
+    "methods": {
+      "rows": 30,
+      "sha256": "a3cdb4b8d220970458e1e45fb08d337e1743dc983039e9bf5620e2872afb1821"
+    },
+    "observations": {
+      "rows": 10073,
+      "sha256": "fdf249663b5c69e5780906e4977c42b66668ad9465f6935c33f4173a28dcf6e6"
+    },
+    "gradients": {
+      "rows": 202,
+      "sha256": "d7a440f8ada0c13405ad89cb17b796a0f1f0feae4c16d22bc0d3452dae36db58"
+    }
+  },
+  "feature_schema_sha256": "fa63e237306ac56acec2e1b26f992c3a29232a85d195f9eb51891bbb745bee37",
+  "source_file_hashes": {
+    "Dataset 01.xlsx": "9c65bf960f235d1bb5f7587a082ddd91892781b55c317b2858a53fdb347fef3c",
+    "Dataset 02.xlsx": "74ccffb57779c99adc8cf3616349d1fb35e52f52093534e3856bcf8378ea55c6",
+    "Dataset 03.xlsx": "757e489dc32deb33edf15223dba3cf9f14611e5a6219cb05edd28cd2e59f2045",
+    "Dataset 04.xlsx": "22a00ed5788b5838687d7dc3f02f89fa18b1262c3dbdf88192a38a16066d1bc0",
+    "Dataset 05.xlsx": "884bfa679e68809d83bead9199deac61c2438a9f237c64c1f987d614ce1bebaf",
+    "Dataset 06.xlsx": "576bfb176041d7d1230b2053cfa7249ea426084e0e5eb256c1b8f84aa37be0b9",
+    "Dataset 07.xlsx": "8952906c9eaa3d0b606aeccd789dcc8f4e2a1883f6db8ea50d6902b35bd1ea60",
+    "Dataset 08.xlsx": "4bc8bff5974c513d4fbb3b8eada6631f6375d19f27cf0de5093452673e5ac572",
+    "Dataset 09.xlsx": "44f1c0cb99c7eccd40fc15d7aac7d86e6c0c045a1e1ffa90af8a49396098ac8f",
+    "Dataset 10.xlsx": "a68b6a2a810d05693a8cfbbeabd4aa8ddfa5fa725e7654ce3db7790edaee552d",
+    "Dataset 11.xlsx": "f57bfc925c5eff28141c611bf57b1cb4336ffe58600489a5fd25c551a7d6581a",
+    "Dataset 12.xlsx": "ecb9f3e6689e2e8a51713e0aa460ab25063e30ed14b7964363e3e95c19b8d280",
+    "Dataset 13.xlsx": "c741c2b3f9106fee03303d48292aaad64778abf5388ba5b3224e3f24694132f3",
+    "Dataset 14.xlsx": "a73c7b81bd9575926a05ff6c886d79660984bae60b1b47e6b742ec239f62bdfd",
+    "Dataset 15.xlsx": "9cb2b49db93681a31a76248fcef35dea5fd5f84c589c0547aca65c3cfbb1d63e",
+    "Dataset 16.xlsx": "08b51a4f692a090a2bb72ac1cd23f66cad0c81f261c3fcb5e1157361492dc412",
+    "Dataset 17.xlsx": "cb26384dc38afca89fcead98e22598991f15bc383e04516c46454967bbca4818",
+    "Dataset 18.xlsx": "c1d6dab80a6fec8a6a0736cf3b4a5013fbd2276f1c9e197be15e5a623ad11bb4",
+    "Dataset 19.xlsx": "631800fbe601cf593e9b78f36465e2687aaf75588748acd8ae6298424e1d4378",
+    "Dataset 20.xlsx": "11c1c2d93a0365c490f05d39513a0af19aa50bab203b2821b0676f163c7511b9",
+    "Dataset 21.xlsx": "01d9a9b0af38a8ac0db19f27efecd596ab5c90fd00aa3543955ddac150233d18",
+    "Dataset 22.xlsx": "93428bc0208f9eaa34454eb1ff78a694b970bda2d81e8bdd2fac3c33cae78c98",
+    "Dataset 23.xlsx": "18d470ea3a86d73c8634d66d2c57a30c835d8abb2cd19ad5a5380bd6993f6f70",
+    "Dataset 24.xlsx": "35c165c6148772500fd0b27ba2d08ba5ac28bb2fffaf9e815e2df31fd0b463be",
+    "Dataset 25.xlsx": "5da58abe91c2e939d121afebccff49deba7eedffb4ff320cd38b2a47243602c9",
+    "Dataset 26.xlsx": "c76079c5b2667d6b3f778b7667a2abc34b85d9d49437ca097ac304bcc5833222",
+    "Dataset 27.xlsx": "315eb482a38cf873e0f1778033efbacd5bd324fce4070f3dbda1da65a6723400",
+    "Dataset 28.xlsx": "f1140786fc4f0e57d326a570c866dfa26307abf87595c1b158293392020c1056",
+    "Dataset 29.xlsx": "0c588549b89ef3a7ddba2594f75e321fd5c19583f3c319c9e55b426a0e0145e1",
+    "Dataset 30.xlsx": "b8fe140b5591af31b05f05096beaf9982e35dfe8034df8a29a30921120e70bca"
+  },
+  "compound_groups": 341,
+  "group_collisions": [
+    [
+      162,
+      163
+    ],
+    [
+      167,
+      168
+    ]
+  ],
+  "fragmented_structures": [
+    341
+  ],
+  "quality_flags": [
+    {
+      "compound_id": 28,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "OEOKLBSECDAYSM-YHYXMXQVSA-N",
+      "generated_key": "OEOKLBSECDAYSM-BJMVGYQFSA-N"
+    },
+    {
+      "compound_id": 50,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "OHYXOGZWSSNLON-XFFZJAGNSA-N",
+      "generated_key": "OHYXOGZWSSNLON-YRNVUSSQSA-N"
+    },
+    {
+      "compound_id": 61,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "FULJCJZKZXOFQZ-WZUFQYTHSA-N",
+      "generated_key": "FULJCJZKZXOFQZ-VZUCSPMQSA-N"
+    },
+    {
+      "compound_id": 79,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "OVGGLBAWFMIPPY-SDQBBNPISA-N",
+      "generated_key": "OVGGLBAWFMIPPY-WUXMJOGZSA-N"
+    },
+    {
+      "compound_id": 93,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "YCWSUKQGVSGXJO-QPEQYQDCSA-N",
+      "generated_key": "YCWSUKQGVSGXJO-NTUHNPAUSA-N"
+    },
+    {
+      "compound_id": 149,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "ZOTBXTZVPHCKPN-ZPHPHTNESA-N",
+      "generated_key": "ZOTBXTZVPHCKPN-HTXNQAPBSA-N"
+    },
+    {
+      "compound_id": 162,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "FPQFYIAXQDXNOR-SXIUOJOQSA-N",
+      "generated_key": "FPQFYIAXQDXNOR-YVVFDKAISA-N"
+    },
+    {
+      "compound_id": 248,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "ONCZDRURRATYFI-JCLPZYRYSA-N",
+      "generated_key": "ONCZDRURRATYFI-TVJDWZFNSA-N"
+    },
+    {
+      "compound_id": 293,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "ZBHXIWJRIFEVQY-HURQQZHVSA-N",
+      "generated_key": "ZBHXIWJRIFEVQY-IHMPYVIRSA-N"
+    },
+    {
+      "compound_id": 334,
+      "issue": "SMILES/InChI secondary-layer difference",
+      "source_key": "RXZBMPWDPOLZGW-HEWSMUCTSA-N",
+      "generated_key": "RXZBMPWDPOLZGW-XMRMVWPWSA-N"
+    }
+  ],
+  "feature_counts": {
+    "molecular": 21,
+    "method_numeric": 61,
+    "method_categorical": 1
+  }
+}

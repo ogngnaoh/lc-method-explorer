@@ -1,0 +1,84 @@
+{
+  "model": "per-method training median",
+  "evaluation": "development 5-fold grouped out-of-fold",
+  "holdout_evaluated": false,
+  "overall": {
+    "observations": 8026,
+    "compound_groups": 272,
+    "mae_min": 4.8531235983055065,
+    "rmse_min": 7.141761723976328,
+    "median_absolute_error_min": 3.289999999999999,
+    "p90_absolute_error_min": 10.895,
+    "mean_group_mae_min": 4.824530637254902
+  },
+  "folds": {
+    "0": {
+      "observations": 1616,
+      "compound_groups": 55,
+      "mae_min": 4.752988861386139,
+      "rmse_min": 7.214739343836682,
+      "median_absolute_error_min": 2.967499999999999,
+      "p90_absolute_error_min": 11.34,
+      "mean_group_mae_min": 4.747615757575758
+    },
+    "1": {
+      "observations": 1680,
+      "compound_groups": 55,
+      "mae_min": 4.831422619047619,
+      "rmse_min": 7.188459720605096,
+      "median_absolute_error_min": 3.2800000000000002,
+      "p90_absolute_error_min": 11.015000000000006,
+      "mean_group_mae_min": 4.9021606060606056
+    },
+    "2": {
+      "observations": 1620,
+      "compound_groups": 54,
+      "mae_min": 5.6371975308641975,
+      "rmse_min": 7.873149141697204,
+      "median_absolute_error_min": 3.969999999999999,
+      "p90_absolute_error_min": 12.525000000000004,
+      "mean_group_mae_min": 5.6371975308641975
+    },
+    "3": {
+      "observations": 1567,
+      "compound_groups": 54,
+      "mae_min": 4.322077217613273,
+      "rmse_min": 6.542217819035368,
+      "median_absolute_error_min": 2.9400000000000004,
+      "p90_absolute_error_min": 9.470000000000002,
+      "mean_group_mae_min": 4.232312962962964
+    },
+    "4": {
+      "observations": 1543,
+      "compound_groups": 54,
+      "mae_min": 4.697728451069346,
+      "rmse_min": 6.78092181045332,
+      "median_absolute_error_min": 3.3100000000000005,
+      "p90_absolute_error_min": 10.690000000000001,
+      "mean_group_mae_min": 4.603353086419753
+    }
+  },
+  "runtime_seconds": 0.06948783400002867,
+  "run_at_utc": "2026-09-24T04:04:16.619521+00:00",
+  "split_sha256": "4d1fc58698722df6952a5eb1771329298a2c65470fcc852b8c90f91953765698",
+  "data_protocol_sha256": "b02909e3673d3cf7b61082907b554c815e6b29b39af668d47f2d07f67c55f963",
+  "lock_sha256": "a2c6822776c3022f1d71e313c9bc91e1294ff87177e73e825c643c10186792e8",
+  "python_version": "3.11.5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "source_sha256": {
+    "chromrt/__init__.py": "6a05c7279c9749b47e0c34d7cdabdb95312bd9cc40a6c01ea965846f586c46e8",
+    "chromrt/baseline.py": "6b7538825de6f349a7e5fc710ff899d3927725cd5b3b8f693803405f94bb2c5c",
+    "chromrt/chemistry.py": "d3697edaa73132a14c6a4a143f5a2d50f999cff1bd5a11699d69ee6a6ed5173b",
+    "chromrt/methods.py": "3bafc4551c417bbcff00218b717c210052eaaeff921a7b764c96e5c64502ce60",
+    "chromrt/pipeline.py": "0dbe0895d8f0712b11ea75aa6e9f8d62153082fe4b4a6d6edb966b15483eb5bf",
+    "chromrt/prepare.py": "fa59a14991a1056e329d0b940993d81468376c171aed3f16a308fc972f87615f",
+    "chromrt/splits.py": "9bdedec734f91167c2d71398f2137f91c8569952a6dc0eae9cc29da0c30ee296"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "rdkit": "2026.3.6",
+    "scikit-learn": "1.9.1",
+    "openpyxl": "3.1.5"
+  }
+}
